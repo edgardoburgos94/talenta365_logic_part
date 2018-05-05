@@ -21,14 +21,6 @@ def find_word
 
     second_word = words.select{|key, hash| hash == second_max_value }
 
-    # sentense_array.each_with_index do |word, index|
-    #   sentense_array.length.times do |i|
-    #     if sentense_array[i] == word then count= count +1 end
-    #   end
-    # end
-
-    # puts(sentense_array)
-    # puts(words)
     puts("")
     puts("----------------------------------------------------------------------------------------------- ")
     second_word.each do |key, value|
